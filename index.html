@@ -3,14 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Facebook clone</title>
     <link rel="stylesheet" href="/index.css" />
+    <link rel="icon" href="logo.png" type="image/png" />
   </head>
-  <body>
-    <p class="text-pink-500">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim dolorum
-      iste illo cum accusamus quaerat ipsam nisi rem odio, commodi consectetur
-      qui nostrum ratione dolor aspernatur possimus impedit reiciendis vel.
-    </p>
+  <body class="bg-gray-100">
+    <div class="md:40 mt-14 justify-self-auto">
+      <div class="left">
+        <img class="w-40 md:w-60 mx-auto" src="img.png" alt="" />
+        <!-- <p>Facebook helps you connect and share with the people in your life</p> -->
+      </div>
+      <div
+        class="right flex flex-col bg-white justify-center md:max-w-md max-w-sm mx-auto p-6 rounded-lg border-2 border-gray-200"
+      >
+        <p class="text-center font-normal text-xl w-full">Log in to Facebook</p>
+        <input
+          class="px-4 h-14 my-2 border-2 border-gray-300 rounded-lg text-xl mt-5"
+          type="text "
+          placeholder="Email address or phone number "
+        />
+        <input
+          class="px-4 h-14 my-2 border-2 border-gray-300 rounded-lg text-xl"
+          type="password"
+          placeholder="Password"
+        />
+        <button
+          class="bg-blue-500 rounded-lg px-4 h-14 my-2 text-white font-bold text-2xl hover:bg-blue-600"
+        >
+          Log In
+        </button>
+        <div class="flex space-x-1 text-blue-600 justify-center px-8">
+          <span class="hover:underline">Forgotten password ?</span>
+          <span class="hover:underline">Sign up for Facebook</span>
+        </div>
+        <!-- <button class="btn">Create Account</button> -->
+      </div>
+    </div>
   </body>
 </html>
